@@ -1,23 +1,29 @@
 ## Roman Numerals Kata
 
 ### Pairing @ 8th Light
-This repo was created for the Introduction to Pairing class for the 8th Light Apprenticeship.
+
+This repo was created for the Introduction to Pairing class for the 8th Light Apprenticeship. It should be used with the [8th Light Pairing Checklist](https://gist.github.com/crkubiak/3b8f91872401bfec50c7476c6a809d22).
 
 ### Requirements
+
 - [Have node installed on your machine](https://nodejs.org/en/)
 
 ### Setup
+
 - Clone the repo to your local machine
 - cd into the directory containing the project.
 - From the terminal run `yarn install`
 
 ### Usage
+
 - Your first test is written for you:
-``` 
+
+```
 test("input of 1 will give output of I", () => {
   expect(romanNumeral(1)).toBe("I")
 })
 ```
+
 - To run your tests run `yarn test` from the terminal. Your first test should fail with a report similar to this:
 
 ```
